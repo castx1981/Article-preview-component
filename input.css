@@ -11,4 +11,22 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .drawer-desktop {
+        height: auto;
+        background-image: url("images/drawers.jpg");
+        background-position-y: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bottom-bubble::after {
+        content: "";
+        position: absolute;
+        bottom: -16px;
+        left: calc(50% - 16px);
+        border: 16px solid transparent;
+        border-top-color: hsl(217, 19%, 35%);
+        border-bottom: 0;
+    }
 }
